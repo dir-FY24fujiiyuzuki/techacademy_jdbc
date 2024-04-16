@@ -68,7 +68,6 @@ public class DbConnectSample02 {
                    try {  
                        rs.close();
                    }catch(SQLException e) {
-                       System.err.println("Resultをと実時のエラーが発生しました。");
                        e.printStackTrace();
                    }
                }
@@ -77,7 +76,6 @@ public class DbConnectSample02 {
                    try {
                        stmt.close();
                    } catch (SQLException e) {
-                       System.err.println("Statementを閉じるときにエラーが発生しました。");
                        e.printStackTrace();
                    }
                }
@@ -85,7 +83,6 @@ public class DbConnectSample02 {
                    try {
                        con.close();
                    }catch(SQLException e) {
-                       System.err.println("でーたべーすが接続時にエラーが発生しました。");
                        e.printStackTrace();
                      
                   

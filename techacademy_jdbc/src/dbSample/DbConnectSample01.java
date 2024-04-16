@@ -6,10 +6,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import javax.print.attribute.standard.PrinterLocation;
-
-import com.mysql.cj.x.protobuf.MysqlxSql.StmtExecute;
-
 public class DbConnectSample01 {
     
     public static void main(String[] args) {
