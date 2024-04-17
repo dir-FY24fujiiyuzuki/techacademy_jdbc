@@ -14,11 +14,12 @@ public class Country {
         
         this.name=name;
         this.population=population;
-        
+    }
         //getter/setter
         public String getName() {
             return name;
-            public void setName(String name) {
+        }
+        public void setName(String name) {
                 this.name = name;
         }
         
@@ -26,7 +27,7 @@ public class Country {
             return population;
         }
         
-        public void getPopulation(int population) {
+        public void setPopulation(int population) {
             this.population = population;
         }
         }
